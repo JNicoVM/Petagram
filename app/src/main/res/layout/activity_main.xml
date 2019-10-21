@@ -54,21 +54,22 @@
             app:maxImageSize="60dp"
             app:srcCompat="@android:drawable/ic_menu_add" />
 
-        <ProgressBar
-            android:id="@+id/progressBar"
-            style="?android:attr/progressBarStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="72dp"
-            android:layout_marginLeft="72dp"
-            android:layout_marginTop="98dp"
-            android:layout_marginEnd="152dp"
-            android:layout_marginRight="152dp"
-            android:layout_marginBottom="179dp"
-            app:layout_constraintBottom_toTopOf="@+id/button2"
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/MyRefresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/tv1"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ListView
+                android:id="@+id/MyList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </ListView>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
 
 
 
