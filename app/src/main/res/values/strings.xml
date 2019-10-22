@@ -13,4 +13,11 @@
     </string-array>
     <string name="titula_tarjeta">Perrito</string>
     <string name="descripcion_tarjeta">Es bebe</string>
+    <string name="onStart">OnStart</string>
+    <string name="onResume">OnResume</string>
+    <string name="onRestart">OnRestart</string>
+    <string name="onPause">OnPause</string>
+    <string name="onStop">OnStop</string>
+    <string name="onDestroy">OnDestroy</string>
+    <string name="onCreate">OnCreate</string>
 </resources>
