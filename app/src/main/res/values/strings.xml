@@ -11,4 +11,6 @@
         <item>Marte</item>
         <item>Jupiter</item>
     </string-array>
+    <string name="titula_tarjeta">Perrito</string>
+    <string name="descripcion_tarjeta">Es bebe</string>
 </resources>

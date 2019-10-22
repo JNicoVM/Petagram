@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cv_medida">200dp</dimen>
+    <dimen name="Lista_height">200dp</dimen>
+    <dimen name="iv_height">150dp</dimen>
+    <dimen name="card_titulo">20dp</dimen>
+</resources>
