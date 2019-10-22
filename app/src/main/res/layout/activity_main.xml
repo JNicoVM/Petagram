@@ -107,8 +107,5 @@
                     android:layout_below="@id/tv_cardView"/>
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
-
-
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
